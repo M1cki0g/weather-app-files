@@ -1,0 +1,160 @@
+*{
+    font-family: Dosis;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+img{
+width: 40px;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(6, 118, 247), rgb(246, 205, 3));
+    width: 100%;
+    height: 100vh;
+    background-size: 400% 300%  ;
+    animation: color 5s ease-in-out infinite;
+}
+
+
+@keyframes color {
+    0% { background-position: 0% 30%; }
+    50% { background-position: 80% 30%; }
+    100% { background-position: 0% 30%; }
+}
+
+button{
+    background: transparent; 
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 300px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+
+}
+
+.searchb{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#card{
+    background: transparent; 
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 100px;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#deg{
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+#search{
+    margin: 5% 30% auto;
+    margin-bottom: 30px;
+    width: 100px;
+    padding: 7px;
+    padding-left: 60px;                
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    color: white;
+    text-align: start;
+}
+
+#humd, #wind{
+    margin-left: 20px;
+}
+
+#sun{
+    margin-left: 37%;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#content2{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#content3{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#city{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+#wind1{
+    margin-right: 90px;
+    font-size: 10px;
+    margin-left: 10px;
+    
+}
+#wind2{
+    margin-right: 90px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#und{
+    margin-left: 37%;
+    display: none;
+}
+
+#info{
+    display: none;
+}
+
+#humd{
+    display: none;
+}
+
+#humdp{
+    display: none;
+}
+
+#w{
+    display: none;
+}
+
+#wind{
+    display: none;
+}
+
+#windspeed{
+    display: none;
+}
+
+#h{
+    display: none;
+}

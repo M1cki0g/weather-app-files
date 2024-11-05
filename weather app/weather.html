@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+<body>
+
+<div class="container">
+    
+    <div id="card">
+        <div id="content1">
+            <div class="searchb">
+                <input id="search" type="text" placeholder="search">
+                <button onclick="weather(search.value)"><i  class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="und">
+                <p>Undefined city</p>
+            </div>
+            <div id="info">
+            <img id="sun" src="sun.png">
+            <h1 id="deg"></h1>
+            <h2 id="city"></h2>
+            </div>
+        </div>  
+        <div id="content2">
+            <div id="humidity">
+                <img id="humd" src="humidity.png">
+            </div>
+            <div id="wind1">
+                <h1 id="humdp"></h1>
+                <h3 id="w">WindSpeed</h3>
+        </div>
+
+        <div id="content3">
+            <div id="humidity">
+                <img id="wind" src="wind.png">
+            </div>
+            <div id="wind2">
+                <h1 id="windSpeed"></h1>
+                <h3 id="h">humidity</h3>
+        </div>
+    
+
+    </div>
+
+</div>
+
+<script src="weather.js">
+</script>
+
+</body>
+</html>
